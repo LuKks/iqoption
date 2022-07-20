@@ -1,0 +1,30 @@
+{
+  "name": "iqoption",
+  "version": "0.1.0",
+  "description": "Real-time forex data from IQ Option using WebSocket for Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js",
+    "tape": "tape test.js",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuKks/iqoption.git"
+  },
+  "author": "Lucas Barrena (@LuKks)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LuKks/iqoption/issues"
+  },
+  "homepage": "https://github.com/LuKks/iqoption",
+  "dependencies": {
+    "isomorphic-fetch": "^3.0.0",
+    "set-cookie-parser": "^2.5.0",
+    "ws": "^8.8.1"
+  },
+  "devDependencies": {
+    "standard": "^17.0.0",
+    "tape": "^5.5.3"
+  }
+}
