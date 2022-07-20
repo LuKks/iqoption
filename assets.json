@@ -1,0 +1,1407 @@
+[
+    {
+        "active_id": 1,
+        "name": "EUR/USD",
+        "ticker": "EURUSD"
+    },
+    {
+        "active_id": 2,
+        "name": "EUR/GBP",
+        "ticker": "EURGBP"
+    },
+    {
+        "active_id": 3,
+        "name": "GBP/JPY",
+        "ticker": "GBPJPY"
+    },
+    {
+        "active_id": 4,
+        "name": "EUR/JPY",
+        "ticker": "EURJPY"
+    },
+    {
+        "active_id": 5,
+        "name": "GBP/USD",
+        "ticker": "GBPUSD"
+    },
+    {
+        "active_id": 6,
+        "name": "USD/JPY",
+        "ticker": "USDJPY"
+    },
+    {
+        "active_id": 7,
+        "name": "AUD/CAD",
+        "ticker": "AUDCAD"
+    },
+    {
+        "active_id": 8,
+        "name": "NZD/USD",
+        "ticker": "NZDUSD"
+    },
+    {
+        "active_id": 10,
+        "name": "USD/RUB",
+        "ticker": "USDRUB"
+    },
+    {
+        "active_id": 31,
+        "name": "Amazon",
+        "ticker": "AMZN"
+    },
+    {
+        "active_id": 32,
+        "name": "Apple",
+        "ticker": "AAPL"
+    },
+    {
+        "active_id": 33,
+        "name": "Baidu",
+        "ticker": "BIDU"
+    },
+    {
+        "active_id": 34,
+        "name": "Cisco Systems",
+        "ticker": "CSCO"
+    },
+    {
+        "active_id": 35,
+        "name": "Facebook",
+        "ticker": "FB"
+    },
+    {
+        "active_id": 36,
+        "name": "Google",
+        "ticker": "GOOGL"
+    },
+    {
+        "active_id": 37,
+        "name": "Intel",
+        "ticker": "INTC"
+    },
+    {
+        "active_id": 38,
+        "name": "Microsoft",
+        "ticker": "MSFT"
+    },
+    {
+        "active_id": 45,
+        "name": "CitiGroup",
+        "ticker": "C"
+    },
+    {
+        "active_id": 46,
+        "name": "Coca Cola",
+        "ticker": "KO"
+    },
+    {
+        "active_id": 48,
+        "name": "General Electric",
+        "ticker": "GE"
+    },
+    {
+        "active_id": 49,
+        "name": "General Motors",
+        "ticker": "GM"
+    },
+    {
+        "active_id": 50,
+        "name": "Goldman Sachs",
+        "ticker": "GS"
+    },
+    {
+        "active_id": 51,
+        "name": "JP Morgan Chase",
+        "ticker": "JPM"
+    },
+    {
+        "active_id": 52,
+        "name": "McDonald's",
+        "ticker": "MCD"
+    },
+    {
+        "active_id": 53,
+        "name": "Morgan Stanley",
+        "ticker": "MS"
+    },
+    {
+        "active_id": 54,
+        "name": "Nike",
+        "ticker": "NKE"
+    },
+    {
+        "active_id": 72,
+        "name": "USD/CHF",
+        "ticker": "USDCHF"
+    },
+    {
+        "active_id": 74,
+        "name": "Gold",
+        "ticker": "XAU"
+    },
+    {
+        "active_id": 75,
+        "name": "Silver",
+        "ticker": "XAG"
+    },
+    {
+        "active_id": 76,
+        "name": "EUR/USD (OTC)",
+        "ticker": "EURUSD"
+    },
+    {
+        "active_id": 77,
+        "name": "EUR/GBP (OTC)",
+        "ticker": "EURGBP"
+    },
+    {
+        "active_id": 78,
+        "name": "USD/CHF (OTC)",
+        "ticker": "USDCHF"
+    },
+    {
+        "active_id": 79,
+        "name": "EUR/JPY (OTC)",
+        "ticker": "EURJPY"
+    },
+    {
+        "active_id": 80,
+        "name": "NZD/USD (OTC)",
+        "ticker": "NZDUSD"
+    },
+    {
+        "active_id": 81,
+        "name": "GBP/USD (OTC)",
+        "ticker": "GBPUSD"
+    },
+    {
+        "active_id": 84,
+        "name": "GBP/JPY (OTC)",
+        "ticker": "GBPJPY"
+    },
+    {
+        "active_id": 85,
+        "name": "USD/JPY (OTC)",
+        "ticker": "USDJPY"
+    },
+    {
+        "active_id": 86,
+        "name": "AUD/CAD (OTC)",
+        "ticker": "AUDCAD"
+    },
+    {
+        "active_id": 87,
+        "name": "Alibaba",
+        "ticker": "BABA"
+    },
+    {
+        "active_id": 95,
+        "name": "Yandex",
+        "ticker": "YNDX"
+    },
+    {
+        "active_id": 99,
+        "name": "AUD/USD",
+        "ticker": "AUDUSD"
+    },
+    {
+        "active_id": 100,
+        "name": "USD/CAD",
+        "ticker": "USDCAD"
+    },
+    {
+        "active_id": 101,
+        "name": "AUD/JPY",
+        "ticker": "AUDJPY"
+    },
+    {
+        "active_id": 102,
+        "name": "GBP/CAD",
+        "ticker": "GBPCAD"
+    },
+    {
+        "active_id": 103,
+        "name": "GBP/CHF",
+        "ticker": "GBPCHF"
+    },
+    {
+        "active_id": 104,
+        "name": "GBP/AUD",
+        "ticker": "GBPAUD"
+    },
+    {
+        "active_id": 105,
+        "name": "EUR/CAD",
+        "ticker": "EURCAD"
+    },
+    {
+        "active_id": 106,
+        "name": "CHF/JPY",
+        "ticker": "CHFJPY"
+    },
+    {
+        "active_id": 107,
+        "name": "CAD/CHF",
+        "ticker": "CADCHF"
+    },
+    {
+        "active_id": 108,
+        "name": "EUR/AUD",
+        "ticker": "EURAUD"
+    },
+    {
+        "active_id": 113,
+        "name": "Twitter Inc",
+        "ticker": "TWTR"
+    },
+    {
+        "active_id": 133,
+        "name": "Ferrari",
+        "ticker": "RACE"
+    },
+    {
+        "active_id": 167,
+        "name": "Tesla",
+        "ticker": "TSLA"
+    },
+    {
+        "active_id": 168,
+        "name": "USD/NOK",
+        "ticker": "USDNOK"
+    },
+    {
+        "active_id": 212,
+        "name": "EUR/NZD",
+        "ticker": "EURNZD"
+    },
+    {
+        "active_id": 219,
+        "name": "USD/SEK",
+        "ticker": "USDSEK"
+    },
+    {
+        "active_id": 252,
+        "name": "3M Company",
+        "ticker": "MMM"
+    },
+    {
+        "active_id": 253,
+        "name": "Abbott Labs",
+        "ticker": "ABT"
+    },
+    {
+        "active_id": 254,
+        "name": "AbbVie",
+        "ticker": "ABBV"
+    },
+    {
+        "active_id": 255,
+        "name": "Accenture",
+        "ticker": "ACN"
+    },
+    {
+        "active_id": 256,
+        "name": "Activision Blizzard",
+        "ticker": "ATVI"
+    },
+    {
+        "active_id": 258,
+        "name": "Adobe Systems",
+        "ticker": "ADBE"
+    },
+    {
+        "active_id": 259,
+        "name": "Advance Auto Parts",
+        "ticker": "AAP"
+    },
+    {
+        "active_id": 269,
+        "name": "Alcoa",
+        "ticker": "AA"
+    },
+    {
+        "active_id": 272,
+        "name": "Allergan",
+        "ticker": "AGN"
+    },
+    {
+        "active_id": 278,
+        "name": "Altria",
+        "ticker": "MO"
+    },
+    {
+        "active_id": 290,
+        "name": "Amgen",
+        "ticker": "AMGN"
+    },
+    {
+        "active_id": 303,
+        "name": "AT&T",
+        "ticker": "T"
+    },
+    {
+        "active_id": 304,
+        "name": "Autodesk",
+        "ticker": "ADSK"
+    },
+    {
+        "active_id": 313,
+        "name": "Bank of America",
+        "ticker": "BAC"
+    },
+    {
+        "active_id": 320,
+        "name": "Best Buy",
+        "ticker": "BBY"
+    },
+    {
+        "active_id": 324,
+        "name": "Boeing",
+        "ticker": "BA"
+    },
+    {
+        "active_id": 328,
+        "name": "Bristol-Myers Squibb",
+        "ticker": "BMY"
+    },
+    {
+        "active_id": 338,
+        "name": "Caterpillar",
+        "ticker": "CAT"
+    },
+    {
+        "active_id": 344,
+        "name": "CenturyLink",
+        "ticker": "CTL"
+    },
+    {
+        "active_id": 349,
+        "name": "Chevron",
+        "ticker": "CVX"
+    },
+    {
+        "active_id": 356,
+        "name": "Cintas",
+        "ticker": "CTAS"
+    },
+    {
+        "active_id": 360,
+        "name": "Citrix Systems",
+        "ticker": "CTXS"
+    },
+    {
+        "active_id": 365,
+        "name": "Colgate-Palmolive",
+        "ticker": "CL"
+    },
+    {
+        "active_id": 366,
+        "name": "Comcast – Class A",
+        "ticker": "CMCSA"
+    },
+    {
+        "active_id": 369,
+        "name": "Concho Resources",
+        "ticker": "CXO"
+    },
+    {
+        "active_id": 370,
+        "name": "ConocoPhillips",
+        "ticker": "COP"
+    },
+    {
+        "active_id": 371,
+        "name": "Consolidated Edison",
+        "ticker": "ED"
+    },
+    {
+        "active_id": 374,
+        "name": "Costco",
+        "ticker": "COST"
+    },
+    {
+        "active_id": 379,
+        "name": "CVS Health",
+        "ticker": "CVS"
+    },
+    {
+        "active_id": 380,
+        "name": "D. R. Horton",
+        "ticker": "DHI"
+    },
+    {
+        "active_id": 381,
+        "name": "Danaher",
+        "ticker": "DHR"
+    },
+    {
+        "active_id": 382,
+        "name": "Darden Restaurants",
+        "ticker": "DRI"
+    },
+    {
+        "active_id": 383,
+        "name": "DaVita",
+        "ticker": "DVA"
+    },
+    {
+        "active_id": 386,
+        "name": "Delta Air Lines",
+        "ticker": "DAL"
+    },
+    {
+        "active_id": 388,
+        "name": "Devon Energy",
+        "ticker": "DVN"
+    },
+    {
+        "active_id": 390,
+        "name": "Digital Realty Trust",
+        "ticker": "DLR"
+    },
+    {
+        "active_id": 391,
+        "name": "Discover Financial Services",
+        "ticker": "DFS"
+    },
+    {
+        "active_id": 392,
+        "name": "Discovery – Class A",
+        "ticker": "DISCA"
+    },
+    {
+        "active_id": 397,
+        "name": "Dover",
+        "ticker": "DOV"
+    },
+    {
+        "active_id": 400,
+        "name": "DTE Energy",
+        "ticker": "DTE"
+    },
+    {
+        "active_id": 404,
+        "name": "E-Trade",
+        "ticker": "ETFC"
+    },
+    {
+        "active_id": 405,
+        "name": "Eastman Chemical",
+        "ticker": "EMN"
+    },
+    {
+        "active_id": 407,
+        "name": "eBay",
+        "ticker": "EBAY"
+    },
+    {
+        "active_id": 408,
+        "name": "Ecolab",
+        "ticker": "ECL"
+    },
+    {
+        "active_id": 409,
+        "name": "Edison",
+        "ticker": "EIX"
+    },
+    {
+        "active_id": 413,
+        "name": "Emerson Electric",
+        "ticker": "EMR"
+    },
+    {
+        "active_id": 415,
+        "name": "Entergy",
+        "ticker": "ETR"
+    },
+    {
+        "active_id": 417,
+        "name": "EQT Corporation",
+        "ticker": "EQT"
+    },
+    {
+        "active_id": 418,
+        "name": "Equifax",
+        "ticker": "EFX"
+    },
+    {
+        "active_id": 420,
+        "name": "Equity Residential",
+        "ticker": "EQR"
+    },
+    {
+        "active_id": 421,
+        "name": "Essex Property Trust",
+        "ticker": "ESS"
+    },
+    {
+        "active_id": 426,
+        "name": "Expeditors",
+        "ticker": "EXPD"
+    },
+    {
+        "active_id": 428,
+        "name": "Extra Space Storage",
+        "ticker": "EXR"
+    },
+    {
+        "active_id": 429,
+        "name": "Exxon Mobil",
+        "ticker": "XOM"
+    },
+    {
+        "active_id": 430,
+        "name": "F5 Networks",
+        "ticker": "FFIV"
+    },
+    {
+        "active_id": 433,
+        "name": "Federal Realty",
+        "ticker": "FRT"
+    },
+    {
+        "active_id": 435,
+        "name": "Fidelity National Information Services",
+        "ticker": "FIS"
+    },
+    {
+        "active_id": 436,
+        "name": "Fifth Third Bank",
+        "ticker": "FITB"
+    },
+    {
+        "active_id": 437,
+        "name": "First Solar",
+        "ticker": "FSLR"
+    },
+    {
+        "active_id": 438,
+        "name": "FirstEnergy",
+        "ticker": "FE"
+    },
+    {
+        "active_id": 439,
+        "name": "Fiserv",
+        "ticker": "FISV"
+    },
+    {
+        "active_id": 441,
+        "name": "Flowserve",
+        "ticker": "FLS"
+    },
+    {
+        "active_id": 443,
+        "name": "FMC Corporation",
+        "ticker": "FMC"
+    },
+    {
+        "active_id": 448,
+        "name": "Fortune Brands Home & Security",
+        "ticker": "FBHS"
+    },
+    {
+        "active_id": 450,
+        "name": "Freeport-McMoRan",
+        "ticker": "FCX"
+    },
+    {
+        "active_id": 460,
+        "name": "Gilead Sciences",
+        "ticker": "GILD"
+    },
+    {
+        "active_id": 471,
+        "name": "Hasbro",
+        "ticker": "HAS"
+    },
+    {
+        "active_id": 480,
+        "name": "Honeywell",
+        "ticker": "HON"
+    },
+    {
+        "active_id": 491,
+        "name": "IBM Corporation",
+        "ticker": "IBM"
+    },
+    {
+        "active_id": 513,
+        "name": "Heinz",
+        "ticker": "KHC"
+    },
+    {
+        "active_id": 528,
+        "name": "Lockheed Martin",
+        "ticker": "LMT"
+    },
+    {
+        "active_id": 542,
+        "name": "MasterCard",
+        "ticker": "MA"
+    },
+    {
+        "active_id": 548,
+        "name": "Medtronic",
+        "ticker": "MDT"
+    },
+    {
+        "active_id": 553,
+        "name": "Micron Technology",
+        "ticker": "MU"
+    },
+    {
+        "active_id": 569,
+        "name": "Netflix",
+        "ticker": "NFLX"
+    },
+    {
+        "active_id": 575,
+        "name": "NextEra Energy",
+        "ticker": "NEE"
+    },
+    {
+        "active_id": 586,
+        "name": "Nvidia",
+        "ticker": "NVDA"
+    },
+    {
+        "active_id": 597,
+        "name": "PayPal",
+        "ticker": "PYPL"
+    },
+    {
+        "active_id": 603,
+        "name": "Pfizer",
+        "ticker": "PFE"
+    },
+    {
+        "active_id": 605,
+        "name": "Philip Morris Int.",
+        "ticker": "PM"
+    },
+    {
+        "active_id": 617,
+        "name": "Procter & Gamble",
+        "ticker": "PG"
+    },
+    {
+        "active_id": 626,
+        "name": "Qualcomm",
+        "ticker": "QCOM"
+    },
+    {
+        "active_id": 628,
+        "name": "Quest Diagnostics",
+        "ticker": "DGX"
+    },
+    {
+        "active_id": 630,
+        "name": "Raytheon",
+        "ticker": "RTN"
+    },
+    {
+        "active_id": 645,
+        "name": "Salesforce.com",
+        "ticker": "CRM"
+    },
+    {
+        "active_id": 647,
+        "name": "Schlumberger",
+        "ticker": "SLB"
+    },
+    {
+        "active_id": 666,
+        "name": "Starbucks",
+        "ticker": "SBUX"
+    },
+    {
+        "active_id": 670,
+        "name": "Stryker",
+        "ticker": "SYK"
+    },
+    {
+        "active_id": 689,
+        "name": "Disney",
+        "ticker": "DIS"
+    },
+    {
+        "active_id": 723,
+        "name": "Verizon",
+        "ticker": "VZ"
+    },
+    {
+        "active_id": 726,
+        "name": "Visa",
+        "ticker": "V"
+    },
+    {
+        "active_id": 729,
+        "name": "Wal-Mart Stores",
+        "ticker": "WMT"
+    },
+    {
+        "active_id": 730,
+        "name": "Walgreens Boots All.",
+        "ticker": "WBA"
+    },
+    {
+        "active_id": 756,
+        "name": "Snapchat",
+        "ticker": "SNAP"
+    },
+    {
+        "active_id": 760,
+        "name": "AMD",
+        "ticker": "AMD"
+    },
+    {
+        "active_id": 761,
+        "name": "Align Technology",
+        "ticker": "ALGN"
+    },
+    {
+        "active_id": 762,
+        "name": "ANSYS",
+        "ticker": "ANSS"
+    },
+    {
+        "active_id": 772,
+        "name": "Duke Realty Corp",
+        "ticker": "DRE"
+    },
+    {
+        "active_id": 775,
+        "name": "IDEXX Laboratories",
+        "ticker": "IDXX"
+    },
+    {
+        "active_id": 781,
+        "name": "Resmed Inc",
+        "ticker": "RMD"
+    },
+    {
+        "active_id": 783,
+        "name": "Suncor Energy Inc.",
+        "ticker": "SU"
+    },
+    {
+        "active_id": 784,
+        "name": "Teleflex Inc",
+        "ticker": "TFX"
+    },
+    {
+        "active_id": 785,
+        "name": "T-Mobile US, Inc.",
+        "ticker": "TMUS"
+    },
+    {
+        "active_id": 796,
+        "name": "QQQ Trust, Series 1",
+        "ticker": "QQQ"
+    },
+    {
+        "active_id": 808,
+        "name": "S&P 500 ETF",
+        "ticker": "SPY"
+    },
+    {
+        "active_id": 816,
+        "name": "Bitcoin",
+        "ticker": "BTC"
+    },
+    {
+        "active_id": 817,
+        "name": "Ripple",
+        "ticker": "XRP"
+    },
+    {
+        "active_id": 818,
+        "name": "Ethereum",
+        "ticker": "ETH"
+    },
+    {
+        "active_id": 819,
+        "name": "Litecoin",
+        "ticker": "LTC"
+    },
+    {
+        "active_id": 821,
+        "name": "Dash",
+        "ticker": "DASH"
+    },
+    {
+        "active_id": 824,
+        "name": "Bitcoin Cash",
+        "ticker": "BCH"
+    },
+    {
+        "active_id": 825,
+        "name": "OmiseGo",
+        "ticker": "OMG"
+    },
+    {
+        "active_id": 826,
+        "name": "ZCash",
+        "ticker": "ZEC"
+    },
+    {
+        "active_id": 829,
+        "name": "Ethereum Classic",
+        "ticker": "ETC"
+    },
+    {
+        "active_id": 830,
+        "name": "Bitcoin ×100",
+        "ticker": "BTC"
+    },
+    {
+        "active_id": 831,
+        "name": "Ethereum ×50",
+        "ticker": "ETH"
+    },
+    {
+        "active_id": 834,
+        "name": "Litecoin ×20",
+        "ticker": "LTC"
+    },
+    {
+        "active_id": 836,
+        "name": "Bitcoin Cash ×20",
+        "ticker": "BCH"
+    },
+    {
+        "active_id": 845,
+        "name": "Qtum",
+        "ticker": "QTUM"
+    },
+    {
+        "active_id": 847,
+        "name": "Stellar",
+        "ticker": "XLM"
+    },
+    {
+        "active_id": 858,
+        "name": "TRON",
+        "ticker": "TRX"
+    },
+    {
+        "active_id": 864,
+        "name": "EOS",
+        "ticker": "EOS"
+    },
+    {
+        "active_id": 866,
+        "name": "USD/PLN",
+        "ticker": "USDPLN"
+    },
+    {
+        "active_id": 889,
+        "name": "Dropbox",
+        "ticker": "DBX"
+    },
+    {
+        "active_id": 891,
+        "name": "Spotify",
+        "ticker": "SPOT"
+    },
+    {
+        "active_id": 896,
+        "name": "Barclays",
+        "ticker": "BCS"
+    },
+    {
+        "active_id": 897,
+        "name": "Tesco",
+        "ticker": "TSCO.L"
+    },
+    {
+        "active_id": 901,
+        "name": "BHP Billiton",
+        "ticker": "BLT"
+    },
+    {
+        "active_id": 902,
+        "name": "Wm Morrison Supermarkets",
+        "ticker": "MRW"
+    },
+    {
+        "active_id": 904,
+        "name": "Rolls-Royce",
+        "ticker": "RR"
+    },
+    {
+        "active_id": 905,
+        "name": "Marks & Spencer",
+        "ticker": "MKS"
+    },
+    {
+        "active_id": 908,
+        "name": "Unilever",
+        "ticker": "UL"
+    },
+    {
+        "active_id": 909,
+        "name": "easyJet",
+        "ticker": "EZJ"
+    },
+    {
+        "active_id": 910,
+        "name": "Adidas",
+        "ticker": "ADS:ETR"
+    },
+    {
+        "active_id": 911,
+        "name": "Allianz",
+        "ticker": "ALVG"
+    },
+    {
+        "active_id": 914,
+        "name": "Commerzbank",
+        "ticker": "CBK"
+    },
+    {
+        "active_id": 915,
+        "name": "Continental",
+        "ticker": "CON"
+    },
+    {
+        "active_id": 922,
+        "name": "Merck",
+        "ticker": "MRCG"
+    },
+    {
+        "active_id": 924,
+        "name": "ThyssenKrupp",
+        "ticker": "TKA"
+    },
+    {
+        "active_id": 926,
+        "name": "Enel",
+        "ticker": "ENEL"
+    },
+    {
+        "active_id": 927,
+        "name": "Eni",
+        "ticker": "E"
+    },
+    {
+        "active_id": 928,
+        "name": "Fiat Chrysler Automobiles",
+        "ticker": "FCAU"
+    },
+    {
+        "active_id": 929,
+        "name": "Pirelli",
+        "ticker": "PIRC"
+    },
+    {
+        "active_id": 930,
+        "name": "Poste italiane",
+        "ticker": "PST"
+    },
+    {
+        "active_id": 938,
+        "name": "BBVA",
+        "ticker": "BBVA"
+    },
+    {
+        "active_id": 939,
+        "name": "Telefónica",
+        "ticker": "TEF"
+    },
+    {
+        "active_id": 940,
+        "name": "Airbus SE",
+        "ticker": "AIR"
+    },
+    {
+        "active_id": 941,
+        "name": "Heineken Holding NV",
+        "ticker": "HEIO"
+    },
+    {
+        "active_id": 942,
+        "name": "L'Oreal",
+        "ticker": "OR"
+    },
+    {
+        "active_id": 943,
+        "name": "AUD/CHF",
+        "ticker": "AUDCHF"
+    },
+    {
+        "active_id": 944,
+        "name": "AUD/NZD",
+        "ticker": "AUDNZD"
+    },
+    {
+        "active_id": 945,
+        "name": "CAD/JPY",
+        "ticker": "CADJPY"
+    },
+    {
+        "active_id": 946,
+        "name": "EUR/CHF",
+        "ticker": "EURCHF"
+    },
+    {
+        "active_id": 947,
+        "name": "GBP/NZD",
+        "ticker": "GBPNZD"
+    },
+    {
+        "active_id": 948,
+        "name": "NZD/CAD",
+        "ticker": "NZDCAD"
+    },
+    {
+        "active_id": 949,
+        "name": "NZD/JPY",
+        "ticker": "NZDJPY"
+    },
+    {
+        "active_id": 951,
+        "name": "EUR/NOK",
+        "ticker": "EURNOK"
+    },
+    {
+        "active_id": 952,
+        "name": "CHF/SGD",
+        "ticker": "CHFSGD"
+    },
+    {
+        "active_id": 955,
+        "name": "EUR/SGD",
+        "ticker": "EURSGD"
+    },
+    {
+        "active_id": 958,
+        "name": "Juventus Football Club",
+        "ticker": "JUVE"
+    },
+    {
+        "active_id": 966,
+        "name": "Manchester United",
+        "ticker": "MANU"
+    },
+    {
+        "active_id": 969,
+        "name": "Crude Oil Brent",
+        "ticker": "UKOUSD"
+    },
+    {
+        "active_id": 971,
+        "name": "Crude Oil WTI",
+        "ticker": "USOUSD"
+    },
+    {
+        "active_id": 986,
+        "name": "AUD/NOK",
+        "ticker": "AUDNOK"
+    },
+    {
+        "active_id": 988,
+        "name": "AUD/SEK",
+        "ticker": "AUDSEK"
+    },
+    {
+        "active_id": 989,
+        "name": "AUD/SGD",
+        "ticker": "AUDSGD"
+    },
+    {
+        "active_id": 993,
+        "name": "CAD/NOK",
+        "ticker": "CADNOK"
+    },
+    {
+        "active_id": 994,
+        "name": "CAD/PLN",
+        "ticker": "CADPLN"
+    },
+    {
+        "active_id": 1007,
+        "name": "EUR/DKK",
+        "ticker": "EURDKK"
+    },
+    {
+        "active_id": 1008,
+        "name": "EUR/MXN",
+        "ticker": "EURMXN"
+    },
+    {
+        "active_id": 1011,
+        "name": "EUR/ZAR",
+        "ticker": "EURZAR"
+    },
+    {
+        "active_id": 1024,
+        "name": "NOK/JPY",
+        "ticker": "NOKJPY"
+    },
+    {
+        "active_id": 1025,
+        "name": "NOK/SEK",
+        "ticker": "NOKSEK"
+    },
+    {
+        "active_id": 1031,
+        "name": "NZD/SGD",
+        "ticker": "NZDSGD"
+    },
+    {
+        "active_id": 1038,
+        "name": "SEK/JPY",
+        "ticker": "SEKJPY"
+    },
+    {
+        "active_id": 1041,
+        "name": "SGD/JPY",
+        "ticker": "SGDJPY"
+    },
+    {
+        "active_id": 1045,
+        "name": "USD/DKK",
+        "ticker": "USDDKK"
+    },
+    {
+        "active_id": 1048,
+        "name": "NZD/CHF",
+        "ticker": "NZDCHF"
+    },
+    {
+        "active_id": 1050,
+        "name": "USD/CZK",
+        "ticker": "USDCZK"
+    },
+    {
+        "active_id": 1051,
+        "name": "USD/HUF",
+        "ticker": "USDHUF"
+    },
+    {
+        "active_id": 1116,
+        "name": "IOTA ×20",
+        "ticker": "MIOTA"
+    },
+    {
+        "active_id": 1117,
+        "name": "Stellar ×20",
+        "ticker": "XLM"
+    },
+    {
+        "active_id": 1118,
+        "name": "NEO ×20",
+        "ticker": "NEO"
+    },
+    {
+        "active_id": 1119,
+        "name": "Cardano ×20",
+        "ticker": "ADA"
+    },
+    {
+        "active_id": 1120,
+        "name": "NEM ×20",
+        "ticker": "XEM"
+    },
+    {
+        "active_id": 1203,
+        "name": "MSCI Emerging Markets ETF",
+        "ticker": "EEM"
+    },
+    {
+        "active_id": 1204,
+        "name": "China Large-Cap ETF",
+        "ticker": "FXI"
+    },
+    {
+        "active_id": 1205,
+        "name": "iShares Russell 2000 ETF",
+        "ticker": "IWM"
+    },
+    {
+        "active_id": 1206,
+        "name": "Gold Miners ETF",
+        "ticker": "GDX"
+    },
+    {
+        "active_id": 1209,
+        "name": "S&P Oil & Gas Explor & Product",
+        "ticker": "XOP"
+    },
+    {
+        "active_id": 1210,
+        "name": "Technology SPDR",
+        "ticker": "XLK"
+    },
+    {
+        "active_id": 1211,
+        "name": "Energy SPDR",
+        "ticker": "XLE"
+    },
+    {
+        "active_id": 1212,
+        "name": "Utilities SPDR",
+        "ticker": "XLU"
+    },
+    {
+        "active_id": 1213,
+        "name": "Core MSCI Emerging Markets",
+        "ticker": "IEMG"
+    },
+    {
+        "active_id": 1214,
+        "name": "Consumer Discretionary SPDR",
+        "ticker": "XLY"
+    },
+    {
+        "active_id": 1215,
+        "name": "US Real Estate ETF",
+        "ticker": "IYR"
+    },
+    {
+        "active_id": 1216,
+        "name": "UltraPro Short QQQ",
+        "ticker": "SQQQ"
+    },
+    {
+        "active_id": 1218,
+        "name": "Semiconductor ETF",
+        "ticker": "SMH"
+    },
+    {
+        "active_id": 1219,
+        "name": "MSCI Japan ETF",
+        "ticker": "EWJ"
+    },
+    {
+        "active_id": 1221,
+        "name": "Materials Select Sector SPDR",
+        "ticker": "XLB"
+    },
+    {
+        "active_id": 1222,
+        "name": "Dow Jones Industrial Average ETF",
+        "ticker": "DIA"
+    },
+    {
+        "active_id": 1223,
+        "name": "20+ Year Treasury Bond ETF",
+        "ticker": "TLT"
+    },
+    {
+        "active_id": 1224,
+        "name": "UltraShort S&P500",
+        "ticker": "SDS"
+    },
+    {
+        "active_id": 1225,
+        "name": "MSCI Mexico ETF",
+        "ticker": "EWW"
+    },
+    {
+        "active_id": 1227,
+        "name": "S&P Metals & Mining ETF",
+        "ticker": "XME"
+    },
+    {
+        "active_id": 1229,
+        "name": "UltraShort QQQ",
+        "ticker": "QID"
+    },
+    {
+        "active_id": 1242,
+        "name": "TRON ×50",
+        "ticker": "TRX"
+    },
+    {
+        "active_id": 1244,
+        "name": "EOS ×20",
+        "ticker": "EOS"
+    },
+    {
+        "active_id": 1288,
+        "name": "Aurora Cannabis Inc",
+        "ticker": "ACB"
+    },
+    {
+        "active_id": 1289,
+        "name": "Canopy Growth Corp",
+        "ticker": "CGC"
+    },
+    {
+        "active_id": 1290,
+        "name": "Cronos Group Inc",
+        "ticker": "CRON"
+    },
+    {
+        "active_id": 1291,
+        "name": "GW Pharmaceuticals ADR",
+        "ticker": "GWPH"
+    },
+    {
+        "active_id": 1292,
+        "name": "ETFMG Alternative Harvest",
+        "ticker": "MJ"
+    },
+    {
+        "active_id": 1293,
+        "name": "Tilray Inc - Class 2 Common",
+        "ticker": "TLRY"
+    },
+    {
+        "active_id": 1294,
+        "name": "Anheuser-Busch InBev - SPN ADR",
+        "ticker": "BUD"
+    },
+    {
+        "active_id": 1313,
+        "name": "Lyft",
+        "ticker": "LYFT"
+    },
+    {
+        "active_id": 1315,
+        "name": "Pinterest Inc",
+        "ticker": "PINS"
+    },
+    {
+        "active_id": 1316,
+        "name": "Zoom Video Communications Inc",
+        "ticker": "ZM"
+    },
+    {
+        "active_id": 1334,
+        "name": "Uber Technologies Inc",
+        "ticker": "UBER"
+    },
+    {
+        "active_id": 1335,
+        "name": "MercadoLibre Inc",
+        "ticker": "MELI"
+    },
+    {
+        "active_id": 1336,
+        "name": "Beyond Meat Inc",
+        "ticker": "BYND"
+    },
+    {
+        "active_id": 1343,
+        "name": "Slack",
+        "ticker": "WORK"
+    },
+    {
+        "active_id": 1350,
+        "name": "La Francaise Des Jeux Sa",
+        "ticker": "FDJ"
+    },
+    {
+        "active_id": 1352,
+        "name": "ViacomCBS Inc.",
+        "ticker": "VIAC"
+    },
+    {
+        "active_id": 1353,
+        "name": "Truist Financial Corp.",
+        "ticker": "TFC"
+    }
+]
