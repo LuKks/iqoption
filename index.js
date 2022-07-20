@@ -2,6 +2,7 @@ const fetch = require('isomorphic-fetch')
 const setCookie = require('set-cookie-parser')
 const WebSocket = require('ws')
 const { EventEmitter } = require('events')
+const assets = require('./assets.json')
 
 module.exports = class Broker extends EventEmitter {
   constructor (opts = {}) {
@@ -25,6 +26,12 @@ module.exports = class Broker extends EventEmitter {
     this.trading = {
       expire: null
     }
+  }
+
+  static assets (query) {
+    // assets.json is outdated but still useful
+    if (!query) return assets
+    return assets.find(a => a.active_id === query)
   }
 
   localTime () {

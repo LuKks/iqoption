@@ -62,5 +62,20 @@ await broker.connect()
 // ...
 ```
 
+## Assets
+At the moment assets are fetch from an outdated file.
+
+```javascript
+const Broker = require('iqoption')
+
+// Get all assets
+const assets = Broker.assets()
+console.log(assets[1].name) // => 'EUR/GBP'
+
+// Find by id
+const asset = Broker.assets(76)
+console.log(asset.name) // => 'EUR/USD (OTC)'
+```
+
 ## License
 MIT

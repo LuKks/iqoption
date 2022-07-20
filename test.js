@@ -48,6 +48,15 @@ tape('connect with ssid', async function (t) {
   await broker.disconnect()
 })
 
+tape('assets', async function (t) {
+  const assets = Broker.assets()
+  t.ok(Array.isArray(assets))
+  t.is(assets[1].name, 'EUR/GBP')
+
+  const asset = Broker.assets(76)
+  t.is(asset.name, 'EUR/USD (OTC)')
+})
+
 tape('subscribe', async function (t) {
   const broker = new Broker({
     ssid: process.env.SSID
