@@ -73,12 +73,12 @@ const assets = Broker.assets()
 console.log(assets[1].name) // => 'EUR/GBP'
 
 // Find by name
-const asset = Broker.assets('EUR/USD (OTC)')
-console.log(asset.active_id) // => 76
+const asset1 = Broker.assets('EUR/USD (OTC)')
+console.log(asset1.active_id) // => 76
 
 // Find by id
-const asset = Broker.assets(76)
-console.log(asset.name) // => 'EUR/USD (OTC)'
+const asset2 = Broker.assets(76)
+console.log(asset2.name) // => 'EUR/USD (OTC)'
 ```
 
 ## License
