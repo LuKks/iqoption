@@ -53,8 +53,11 @@ tape('assets', async function (t) {
   t.ok(Array.isArray(assets))
   t.is(assets[1].name, 'EUR/GBP')
 
-  const asset = Broker.assets(76)
-  t.is(asset.name, 'EUR/USD (OTC)')
+  const asset1 = Broker.assets('EUR/USD (OTC)')
+  t.is(asset1.active_id, 76)
+
+  const asset2 = Broker.assets(76)
+  t.is(asset2.name, 'EUR/USD (OTC)')
 })
 
 tape('subscribe', async function (t) {

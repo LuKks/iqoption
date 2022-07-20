@@ -31,7 +31,10 @@ module.exports = class Broker extends EventEmitter {
   static assets (query) {
     // assets.json is outdated but still useful
     if (!query) return assets
-    return assets.find(a => a.active_id === query)
+    if (typeof query === 'number') {
+      return assets.find(a => a.active_id === query)
+    }
+    return assets.find(a => a.name === query)
   }
 
   localTime () {

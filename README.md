@@ -72,6 +72,10 @@ const Broker = require('iqoption')
 const assets = Broker.assets()
 console.log(assets[1].name) // => 'EUR/GBP'
 
+// Find by name
+const asset = Broker.assets('EUR/USD (OTC)')
+console.log(asset.active_id) // => 76
+
 // Find by id
 const asset = Broker.assets(76)
 console.log(asset.name) // => 'EUR/USD (OTC)'
