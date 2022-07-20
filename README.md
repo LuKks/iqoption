@@ -11,6 +11,8 @@ It could be easily improved to get account balance, send real trades, etc.
 
 Every tick has a property `at` which is timestamp in attoseconds.
 
+https://iqoption.com/en/register
+
 ## Usage
 ```javascript
 const Broker = require('iqoption')
