@@ -92,6 +92,7 @@ module.exports = class Broker extends EventEmitter {
     this.ws.on('open', this._onopen.bind(this))
     this.ws.on('message', this._onmessage.bind(this))
     this.ws.on('close', this._onclose.bind(this))
+    this.ws.on('error', this._onerror.bind(this))
 
     const secondsNow = Math.floor(Date.now() / 1000)
     const randId = Math.random().toString().slice(2, 11)
@@ -133,6 +134,8 @@ module.exports = class Broker extends EventEmitter {
         throw new Error('Wrong auth')
       }
       this._authenticatedResolve()
+
+      // this.emit('authenticated')
       return
     }
 
@@ -184,6 +187,11 @@ module.exports = class Broker extends EventEmitter {
   }
 
   _onclose () {
+    this.emit('close')
+  }
+
+  _onerror (error) {
+    this.emit('error', error)
   }
 
   // + this subscribe/unsubscribe could be highly improved, also should support for more operations
