@@ -66,6 +66,23 @@ await broker.connect()
 // ...
 ```
 
+## Handle raw messages
+It will print `authenticated`, `front`, `timeSync`, `heartbeat` and all the WebSocket internal messages.\
+Including responses for your own messages.
+
+```js
+broker.on('message', function (data) {
+  console.log(data)
+})
+
+broker.ws.json({
+  name: 'the-command-name',
+  // request_id: 's_' + broker.requestId++,
+  local_time: broker.localTime(),
+  msg: { ... }
+})
+```
+
 ## Assets
 At the moment assets are fetch from an outdated file.
 
