@@ -1,7 +1,7 @@
 {
   "name": "iqoption",
   "version": "0.1.4",
-  "description": "Real-time forex data from IQ Option using WebSocket for Node.js",
+  "description": "Real-time forex data from IQ Option using WebSocket",
   "main": "index.js",
   "scripts": {
     "test": "standard && tape test.js",
