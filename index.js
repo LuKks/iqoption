@@ -1,4 +1,4 @@
-const fetch = require('isomorphic-fetch')
+const fetch = require('like-fetch')
 const setCookie = require('set-cookie-parser')
 const WebSocket = require('ws')
 const { EventEmitter } = require('events')

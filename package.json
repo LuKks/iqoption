@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/LuKks/iqoption",
   "dependencies": {
-    "isomorphic-fetch": "^3.0.0",
+    "like-fetch": "^0.1.4",
     "set-cookie-parser": "^2.5.0",
     "ws": "^8.8.1"
   },
