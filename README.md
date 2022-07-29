@@ -162,7 +162,7 @@ console.log(asset2.name) // => 'EUR/USD (OTC)'
 ```
 
 ## Handle semi-raw messages or subscriptions
-You can inspect with the WebSocket from the traderoom of IQ Option.\
+You can inspect the WebSocket from the traderoom of IQ Option.\
 Maybe you're interested in sending a message not supported by the library.
 
 Normally when sending a message, the data looks like this:
