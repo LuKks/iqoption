@@ -1,6 +1,6 @@
 # iqoption
 
-Real-time forex data from IQ Option using WebSocket.
+Real-time forex data using IQ Option WebSocket API.
 
 ![](https://img.shields.io/npm/v/iqoption.svg) ![](https://img.shields.io/npm/dt/iqoption.svg) ![](https://img.shields.io/badge/tested_with-tape-e683ff.svg) ![](https://img.shields.io/github/license/LuKks/iqoption.svg)
 
