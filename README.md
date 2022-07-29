@@ -100,7 +100,7 @@ if (option.message) {
 console.log(option)
 ```
 
-Note: `broker.trading.expiration` is used to calculate `expired` for `turbo-options` so you only set a range of 1-5.
+Note: `broker.trading.expiration` is used to calculate `expired` for `turbo-option` so you only set a range of 1-5.
 
 Sell the option:
 ```javascript
@@ -127,12 +127,12 @@ Every time you send a message, there is normally two responses back:
 2. The actual data response
 
 Let's say you found a command but not need to wait for the response:
-`returnResult` in `true` will track and wait for the confirmation based on the automatic `request_id`.\
+`returnResult` in `true` will track and wait for the confirmation based on the automatic `request_id`.
 
 `returnMessage` in `true` will track and wait for a response based on the automatic `request_id`.\
 Otherwise you would have to track all the messages from the WebSocket, etc.
 
-The default is both in `false`.
+The default is `false` for both.
 
 ```javascript
 const result = await broker.send('my-magic-command', { returnResult: true })
