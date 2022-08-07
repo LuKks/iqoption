@@ -81,7 +81,7 @@ module.exports = class Broker extends EventEmitter {
     return this.ssid
   }
 
-  async connect () {
+  async connect (opts = {}) {
     await this.disconnect()
 
     this.timestamp = Date.now() - randomNumber(4000, 6000)
@@ -108,6 +108,8 @@ module.exports = class Broker extends EventEmitter {
 
     await this.send('authenticate', { ssid: this.ssid, returnMessage: true })
     await this.send('setOptions', { returnResult: false })
+
+    if (opts.minimal) return
 
     // get profile and user data
     await this.subscribe('profile-changed', { returnResult: false })
