@@ -169,6 +169,8 @@ module.exports = class Broker extends EventEmitter {
   }
 
   _onmessage (msg) {
+    this.emit('_raw', msg)
+
     const data = JSON.parse(msg)
     this.emit('all', data)
 
