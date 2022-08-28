@@ -421,6 +421,34 @@ tape('subscribe', async function (t) {
   await broker.disconnect()
 })
 
+tape('bigInt', async function (t) {
+  const broker = new Broker({
+    ssid: process.env.SSID,
+    bigInt: 'string'
+  })
+
+  await broker.connect()
+  await broker.subscribe('candle-generated', { active_id: 76, size: 1 })
+
+  const tick = await waitForEvent('candle-generated', broker)
+  t.is(typeof tick.active_id, 'number')
+  t.is(typeof tick.size, 'number')
+  t.is(typeof tick.at, 'string')
+  t.is(typeof tick.from, 'number')
+  t.is(typeof tick.to, 'number')
+  t.is(typeof tick.id, 'number')
+  t.is(typeof tick.open, 'number')
+  t.is(typeof tick.close, 'number')
+  t.is(typeof tick.min, 'number')
+  t.is(typeof tick.max, 'number')
+  t.is(typeof tick.ask, 'number')
+  t.is(typeof tick.bid, 'number')
+  t.is(typeof tick.volume, 'number')
+  t.is(typeof tick.phase, 'string')
+
+  await broker.disconnect()
+})
+
 tape('unsubscribe and resubscribe', async function (t) {
   const broker = new Broker({
     ssid: process.env.SSID

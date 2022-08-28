@@ -5,6 +5,7 @@ const setCookie = require('set-cookie-parser')
 const WebSocket = require('ws')
 const { EventEmitter } = require('events')
 const assets = require('./assets.json')
+const JSONbigString = require('json-bigint')({ storeAsString: true })
 
 module.exports = class Broker extends EventEmitter {
   constructor (opts = {}) {
@@ -14,6 +15,7 @@ module.exports = class Broker extends EventEmitter {
     this.password = opts.password
     this.ssid = opts.ssid || null
 
+    this.bigInt = opts.bigInt === undefined ? false : opts.bigInt
     this.userAgent = opts.userAgent || 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
 
     this.ws = null
@@ -171,7 +173,12 @@ module.exports = class Broker extends EventEmitter {
   _onmessage (msg) {
     this.emit('_raw', msg)
 
-    const data = JSON.parse(msg)
+    let parser
+    if (this.bigInt === false) parser = JSON.parse
+    else if (this.bigInt === 'string') parser = JSONbigString.parse
+    else throw new Error('bigInt option value (' + this.bigInt + ') not supported')
+
+    const data = parser(msg)
     this.emit('all', data)
 
     if (data.name === 'authenticated') {

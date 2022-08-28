@@ -75,6 +75,29 @@ await broker.connect()
 // ...
 ```
 
+## BigInt
+There is a `bigInt` option available when creating a new `Broker` instance.
+
+For example, the `tick.at` is losing precision at the last two digits.
+
+`bigInt: false`: parse big integers as normal numbers losing precision (default).\
+`bigInt: 'string'`: parse big integers as string (this is a good option too).
+
+```javascript
+const broker = new Broker({
+  ...,
+  bigInt: 'string'
+})
+
+broker.on('candle-generated', function (tick) {
+  console.log(tick) /* => {
+    ...
+    at: '1658359430627113793', // timestamp in attoseconds
+    ...
+  } */
+})
+```
+
 ## Open trades
 I recommend reading `test.js` where there is multiple examples.
 
