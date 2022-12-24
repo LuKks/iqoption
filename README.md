@@ -146,14 +146,12 @@ const mood = await broker.send('get-traders-mood', { instrument: 'turbo-option',
 
 ## send()
 Every time you send a message, there is normally two responses back:
-1. A success confirmation
-2. The actual data response
+1. A success confirmation (it was received correctly)
+2. Data that server sent you back as a reply
 
-Let's say you found a command but not need to wait for the response:
-`returnResult` in `true` will track and wait for the confirmation based on the automatic `request_id`.
-
-`returnMessage` in `true` will track and wait for a response based on the automatic `request_id`.\
-Otherwise you would have to track all the messages from the WebSocket, etc.
+You can track and wait for thoses responses, based on the automatic `request_id`:\
+`returnResult` in `true` will track the *confirmation*.\
+`returnMessage` in `true` will track the *data reply*.
 
 The default is `false` for both.
 
@@ -231,8 +229,6 @@ broker.on('all', function (data) {
   console.log(data)
 })
 ```
-
-I recommend reading the first tests of `test.js` for more events.
 
 ## Send raw messages or subscriptions
 ```js
