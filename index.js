@@ -6,6 +6,7 @@ const WebSocket = require('ws')
 const { EventEmitter } = require('events')
 const assets = require('./assets.json')
 const JSONbigString = require('json-bigint')({ storeAsString: true })
+const { HttpsProxyAgent } = require('https-proxy-agent')
 
 module.exports = class Broker extends EventEmitter {
   constructor (opts = {}) {
@@ -16,7 +17,8 @@ module.exports = class Broker extends EventEmitter {
     this.ssid = opts.ssid || null
 
     this.bigInt = opts.bigInt === undefined ? false : opts.bigInt
-    this.userAgent = opts.userAgent || 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36'
+    this.userAgent = opts.userAgent || 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36'
+    this.agent = opts.proxy ? new HttpsProxyAgent(opts.proxy) : null
 
     this.ws = null
     this.timestamp = 0
@@ -70,7 +72,8 @@ module.exports = class Broker extends EventEmitter {
       body: JSON.stringify({
         identifier: this.email,
         password: this.password
-      })
+      }),
+      agent: this.agent
     })
 
     const headerSetCookie = res.headers.get('set-cookie')
@@ -108,7 +111,16 @@ module.exports = class Broker extends EventEmitter {
 
     await waitForWebSocket(this.ws)
 
-    await this.send('authenticate', { ssid: this.ssid, returnMessage: true })
+    const ok = await this.send('authenticate', { ssid: this.ssid, returnMessage: true })
+
+    if (!ok) {
+      try {
+        await this.disconnect()
+      } catch {}
+
+      throw new Error('AUTH_FAILED')
+    }
+
     await this.send('setOptions', { returnResult: false })
 
     if (opts.minimal) return
@@ -361,6 +373,7 @@ module.exports = class Broker extends EventEmitter {
     this.ws.json(data)
 
     return this.waitForRequestId(data.request_id, {
+      name,
       returnResult: opts.returnResult,
       returnMessage: opts.returnMessage
     })
@@ -724,6 +737,12 @@ module.exports = class Broker extends EventEmitter {
       }
 
       const onMessage = (data) => {
+        // Special case for SSID not authenticating
+        if (opts.name === 'authenticate' && data.name === 'authenticated' && data.msg === false && !data.request_id) {
+          resolve(false)
+          return
+        }
+
         if (id !== data.request_id) return
 
         if (data.name === 'result') {
