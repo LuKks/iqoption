@@ -1,6 +1,6 @@
 {
   "name": "iqoption",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Real-time forex data using IQ Option WebSocket API",
   "main": "index.js",
   "scripts": {
